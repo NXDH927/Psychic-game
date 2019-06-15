@@ -1,4 +1,3 @@
-
 var wins = 0;
 var losses = 0;
 var guesses = 9;
@@ -7,6 +6,7 @@ var characters= 'abcdefghijklmnopqrstuvwxyz';
 var charactersLength = characters.length;
 
 function reWriteStats() {
+
     console.log("Wins: " + wins );
     console.log("Losses: " + losses);
     console.log("Guesses:" + guesses);
@@ -18,12 +18,14 @@ function reWriteStats() {
   }
 
   function letteranswer(length) {
+
     console.log('length=', length)
     for ( var i = 0; i < length; i++ ) {
        result = characters.charAt(Math.floor(Math.random() * charactersLength));
 
     }
     return result;
+    
  }
  
   console.log(letteranswer(1));
