@@ -10,9 +10,9 @@ function reWriteStats() {
     console.log("Wins: " + wins );
     console.log("Losses: " + losses);
     console.log("Guesses:" + guesses);
-    document.getElementById("Wins").innerHTML = wins;
-    document.getElementById("Losses").innerHTML = losses;
-    document.getElementById("Guesses").innerHTML = guesses;
+    document.getElementById("Wins").innerHTML = "Wins: " + wins;
+    document.getElementById("Losses").innerHTML = "Losses: " + losses;
+    document.getElementById("Guesses").innerHTML = "Guesses: " + guesses;
     document.getElementById("Letters").innerHTML += letter;
 
   }
@@ -59,7 +59,6 @@ function reWriteStats() {
 
             losses++;
             guesses=9;
-
             console.log(result);
             letteranswer(1);
             document.getElementById("Letters").innerHTML = '';
