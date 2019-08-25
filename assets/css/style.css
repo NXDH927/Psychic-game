@@ -1,23 +1,36 @@
 body{
 
   background-color: purple;
-  color: white;
+  color: purple;
   text-align: center;
 
 }
 
 header{
 
-  background-color: gray;
+  background-color: white;
   height: 100px;
-  margin: 15px;
+  margin: 50px;
+
+}
+
+.start{
+
+margin-left: 40%;
+margin-right: 40%;
 
 }
 
 div{
 
-  background-color: gray;
-  margin: 15px;
+  height: 350px;
+
+}
+
+div{
+
+  background-color: white;
+  margin: 50px;
 
 }
 
@@ -36,8 +49,18 @@ h2{
 
 p{
 
-  margin: 50px;
+  margin-left: inherit;
+  margin-right: 27%;
   font-size: 20px;
 
+}
+
+img{
+
+  position: static;
+  float: left;
+  margin-left: 10%;
+  border: 3px solid purple;
+  position: center;
 
 }
